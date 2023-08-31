@@ -1,24 +1,85 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Autores:
+- Brenno Andrade Novais
+- Caio Hideki Yamamoto Toyama
+- Guilherme Conte Mendes Batista
+- João Vitor Vieira Topan 
+- Leonardo Monteiro Mello
 
-Things you may want to cover:
+Each Lab será a ferramenta web a qual irá servir como repositório colaborativo para materiais de estudo de cursos e disciplinas da EACH e fórum de dúvidas.
 
-* Ruby version
+## 1. Medidas de Monitoramento
 
-* System dependencies
+### CodeClimate Badges:
+- [![Maintainability](https://api.codeclimate.com/v1/badges/6e3e8570979cdde31f4f/maintainability)](https://codeclimate.com/github/brenno-novais/each-lab/maintainability)
+- [![Test Coverage](https://api.codeclimate.com/v1/badges/6e3e8570979cdde31f4f/test_coverage)](https://codeclimate.com/github/brenno-novais/each-lab/test_coverage)
 
-* Configuration
+### Github Actions Badge:
+- [![GitHub Actions Demo](https://github.com/brenno-novais/each-lab/actions/workflows/github-actions-demo.yml/badge.svg)](https://github.com/brenno-novais/each-lab/actions/workflows/github-actions-demo.yml)
 
-* Database creation
+## 2. Links
 
-* Database initialization
+- Heroku:
 
-* How to run the test suite
+- Pivotal Tracker:
 
-* Services (job queues, cache servers, search engines, etc.)
+## 3. Setup
 
-* Deployment instructions
+Os passos a seguir dizem respeito ao sistema operacional Ubuntu.
 
-* ...
+### Instale o rbenv (ambiente virtual para ter controle de versão Ruby)
+
+1. Clone o rbenv na pasta ~/.rbenv:
+
+```
+git clone https://github.com/rbenv/rbenv.git ~/.rbenv
+```
+
+2. Configure seu shell para rodar o rbenv:
+
+```
+echo 'eval "$(~/.rbenv/bin/rbenv init - bash)"' >> ~/.bashrc
+```
+
+3. Entre na pasta que pretende colocar o projeto (recomendo nova pasta) e instale a versão 3.2.2 do Ruby:
+
+```
+rbenv install 3.2.2
+```
+
+Obs: Talvez seja necessário instalar o libyaml: 
+    ```
+    sudo apt-get install libyaml-dev
+    ```
+
+4. Defina o a versão 3.2.2 como a versão local:
+
+```
+rbenv local 3.1.2
+```
+
+5. Instale o Rails:
+```
+gem install rails
+```
+
+6. Clone esse repositório e entre na pasta.
+
+7. Instale as dependências do projeto:
+```
+bundle install
+```
+
+### Testes
+
+Para os testes, rode:
+```
+rake spec
+```
+
+```
+rake cucumber
+```
+
+É esperado uma output na tela, indicando que todos os testes passaram com sucesso.
