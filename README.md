@@ -20,7 +20,10 @@ Esse projeto segue o protótipo feito pelos mesmos autores, na disciplina Interf
 - [![Test Coverage](https://api.codeclimate.com/v1/badges/6e3e8570979cdde31f4f/test_coverage)](https://codeclimate.com/github/brenno-novais/each-lab/test_coverage)
 
 ### Github Actions Badge:
-- [![GitHub Actions Demo](https://github.com/brenno-novais/each-lab/actions/workflows/github-actions-demo.yml/badge.svg)](https://github.com/brenno-novais/each-lab/actions/workflows/github-actions-demo.yml)
+- [![GitHub Actions Demo](https://github.com/brenno-novais/each-lab/actions/workflows/test_and_coveralls.yml/badge.svg)](https://github.com/brenno-novais/each-lab/actions/workflows/test_and_coveralls.yml)
+
+### Coveralls Badge:
+- [![Coverage Status](https://coveralls.io/repos/github/brenno-novais/each-lab/badge.svg?branch=main)](https://coveralls.io/github/brenno-novais/each-lab?branch=main)
 
 ## 2. Links
 
