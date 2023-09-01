@@ -20,7 +20,9 @@ Each Lab será a ferramenta web a qual irá servir como repositório colaborativ
 
 ## 2. Links
 
-- Heroku:
+- Heroku: Aguardando liberação dos recursos do benefício de estudante
+
+- Hospedagem temporária: https://each-lab.onrender.com
 
 - Pivotal Tracker:
 
