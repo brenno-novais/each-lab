@@ -9,6 +9,10 @@ Autores:
 
 Each Lab será a ferramenta web a qual irá servir como repositório colaborativo para materiais de estudo de cursos e disciplinas da EACH e fórum de dúvidas.
 
+Esse projeto segue o protótipo feito pelos mesmos autores, na disciplina Interface Humano-Computador.
+
+- Protótipo: https://www.figma.com/file/3oj8SOoVWYS6tXvnmNt922/EACH-LAB?type=design&node-id=0%3A1&mode=design&t=DCFbw53Y1WKFLOtp-1
+
 ## 1. Medidas de Monitoramento
 
 ### CodeClimate Badges:
